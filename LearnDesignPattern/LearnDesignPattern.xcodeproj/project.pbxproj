@@ -22,6 +22,7 @@
 		9434217E28D0306000FB4183 /* DDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434217D28D0306000FB4183 /* DDD.swift */; };
 		9434218028D0626B00FB4183 /* ClassRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434217F28D0626B00FB4183 /* ClassRelation.swift */; };
 		9434218228D0660800FB4183 /* Principle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434218128D0660800FB4183 /* Principle.swift */; };
+		9434218428D07CC700FB4183 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434218328D07CC700FB4183 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		9434217D28D0306000FB4183 /* DDD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDD.swift; sourceTree = "<group>"; };
 		9434217F28D0626B00FB4183 /* ClassRelation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRelation.swift; sourceTree = "<group>"; };
 		9434218128D0660800FB4183 /* Principle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Principle.swift; sourceTree = "<group>"; };
+		9434218328D07CC700FB4183 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				9434217D28D0306000FB4183 /* DDD.swift */,
 				9434217F28D0626B00FB4183 /* ClassRelation.swift */,
 				9434218128D0660800FB4183 /* Principle.swift */,
+				9434218328D07CC700FB4183 /* Singleton.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9434217E28D0306000FB4183 /* DDD.swift in Sources */,
+				9434218428D07CC700FB4183 /* Singleton.swift in Sources */,
 				9434218228D0660800FB4183 /* Principle.swift in Sources */,
 				9434217C28D0277B00FB4183 /* Composition.swift in Sources */,
 				9434218028D0626B00FB4183 /* ClassRelation.swift in Sources */,
