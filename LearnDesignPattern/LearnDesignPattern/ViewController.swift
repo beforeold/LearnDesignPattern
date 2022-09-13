@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        test()
     }
 
-
+    private func test() {
+        Demo.AbstractClass.test()
+    }
 }
 
