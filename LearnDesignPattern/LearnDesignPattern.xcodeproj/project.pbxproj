@@ -18,6 +18,7 @@
 		9434217628D0131E00FB4183 /* DesignPattern.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434217528D0131E00FB4183 /* DesignPattern.h */; };
 		9434217828D0134D00FB4183 /* AbstractClassAndInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434217728D0134D00FB4183 /* AbstractClassAndInterface.swift */; };
 		9434217A28D0137C00FB4183 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434217928D0137C00FB4183 /* Demo.swift */; };
+		9434217C28D0277B00FB4183 /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434217B28D0277B00FB4183 /* Composition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9434217528D0131E00FB4183 /* DesignPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignPattern.h; sourceTree = "<group>"; };
 		9434217728D0134D00FB4183 /* AbstractClassAndInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractClassAndInterface.swift; sourceTree = "<group>"; };
 		9434217928D0137C00FB4183 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		9434217B28D0277B00FB4183 /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,9 @@
 				9434216B28D012F400FB4183 /* DesignPattern */,
 				9434212728CF881500FB4183 /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		9434212728CF881500FB4183 /* Products */ = {
 			isa = PBXGroup;
@@ -116,6 +120,7 @@
 			children = (
 				9434217528D0131E00FB4183 /* DesignPattern.h */,
 				9434217728D0134D00FB4183 /* AbstractClassAndInterface.swift */,
+				9434217B28D0277B00FB4183 /* Composition.swift */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9434217C28D0277B00FB4183 /* Composition.swift in Sources */,
 				9434217828D0134D00FB4183 /* AbstractClassAndInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

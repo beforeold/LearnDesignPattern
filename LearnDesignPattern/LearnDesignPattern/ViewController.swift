@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     private func test() {
-        Demo.AbstractClass.test()
+        Demo.test()
     }
 }
 
