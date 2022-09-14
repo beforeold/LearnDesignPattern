@@ -14,6 +14,7 @@ class Demo {
     Composition.test()
     Builder.test()
     Bridge.test()
+    Decorator.test()
   }
 }
 
@@ -77,6 +78,16 @@ extension Demo {
                           center: .zero,
                           radius: 5)
       circle.draw()
+    }
+  }
+}
+
+extension Demo {
+  class Decorator {
+    static func test() {
+      let p = DesignPattern.Decorator.Person()
+      p.work()
+      p.sing()
     }
   }
 }
