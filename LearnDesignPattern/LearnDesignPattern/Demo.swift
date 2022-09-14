@@ -15,6 +15,7 @@ class Demo {
     Builder.test()
     Bridge.test()
     Decorator.test()
+    Adapter.test()
   }
 }
 
@@ -88,6 +89,22 @@ extension Demo {
       let p = DesignPattern.Decorator.Person()
       p.work()
       p.sing()
+    }
+  }
+}
+
+extension Demo {
+  class Adapter {
+    static func test() {
+      let adapter = DesignPattern.Adapter.Wrapper()
+      adapter.f1()
+      adapter.f2()
+      
+      let list: [Targeting] = [DesignPattern.Adapter.ClassA(), DesignPattern.Adapter.ClassB()]
+      list.forEach { item in
+        item.f1()
+        item.f2()
+      }
     }
   }
 }
