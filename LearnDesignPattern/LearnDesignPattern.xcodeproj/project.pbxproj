@@ -25,8 +25,6 @@
 		9434218428D07CC700FB4183 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434218328D07CC700FB4183 /* Singleton.swift */; };
 		9434218628D08AAA00FB4183 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434218528D08AAA00FB4183 /* Factory.swift */; };
 		9434218828D1701200FB4183 /* ConstructorArg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9434218728D1701200FB4183 /* ConstructorArg.swift */; };
-		9434218B28D1714B00FB4183 /* NSObject+LDPClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 9434218928D1714B00FB4183 /* NSObject+LDPClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9434218C28D1714B00FB4183 /* NSObject+LDPClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434218A28D1714B00FB4183 /* NSObject+LDPClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +71,6 @@
 		9434218328D07CC700FB4183 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		9434218528D08AAA00FB4183 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		9434218728D1701200FB4183 /* ConstructorArg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstructorArg.swift; sourceTree = "<group>"; };
-		9434218928D1714B00FB4183 /* NSObject+LDPClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LDPClass.h"; sourceTree = "<group>"; };
-		9434218A28D1714B00FB4183 /* NSObject+LDPClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LDPClass.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +139,6 @@
 				9434218328D07CC700FB4183 /* Singleton.swift */,
 				9434218528D08AAA00FB4183 /* Factory.swift */,
 				9434218728D1701200FB4183 /* ConstructorArg.swift */,
-				9434218928D1714B00FB4183 /* NSObject+LDPClass.h */,
-				9434218A28D1714B00FB4183 /* NSObject+LDPClass.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -156,7 +150,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9434218B28D1714B00FB4183 /* NSObject+LDPClass.h in Headers */,
 				9434217628D0131E00FB4183 /* DesignPattern.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,7 +271,6 @@
 				9434217E28D0306000FB4183 /* DDD.swift in Sources */,
 				9434218428D07CC700FB4183 /* Singleton.swift in Sources */,
 				9434218228D0660800FB4183 /* Principle.swift in Sources */,
-				9434218C28D1714B00FB4183 /* NSObject+LDPClass.m in Sources */,
 				9434217C28D0277B00FB4183 /* Composition.swift in Sources */,
 				9434218028D0626B00FB4183 /* ClassRelation.swift in Sources */,
 				9434217828D0134D00FB4183 /* AbstractClassAndInterface.swift in Sources */,

@@ -12,6 +12,7 @@ class Demo {
   static func test() {
     AbstractClass.test()
     Composition.test()
+    Builder.test()
   }
 }
 
@@ -47,10 +48,23 @@ extension Demo {
   private class Builder {
     static func test() {
       _ = ConstructorArg(string: "string")
-      _ = ConstructorArg(arg: NSObject())
+      _ = ConstructorArg(arg: NSObject(), type: NSObject.self)
       
       _ = ConstructorArgEnum.string("string")
       _ = ConstructorArgEnum.type(arg: NSObject(), type: NSObject.self)
+      
+      _ = try! ConstructorArg.Builder()
+        .setIsRef(true)
+        .setArg("string" as NSString)
+        .build()
+      
+      _ = try! ConstructorArg.Builder()
+        .setIsRef(false)
+        .setArg(NSObject())
+        .setType(NSObject.self)
+        .build()
+      
+      print("build success")
     }
   }
 }
