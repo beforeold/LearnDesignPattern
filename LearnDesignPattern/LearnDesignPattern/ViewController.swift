@@ -6,17 +6,19 @@
 //
 
 import UIKit
+import DesignPattern
+import SomeFramework
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        test()
-    }
-
-    private func test() {
-        Demo.test()
-    }
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+    test()
+  }
+  
+  private func test() {
+    Demo.test()
+  }
 }
 
