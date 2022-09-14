@@ -13,6 +13,7 @@ class Demo {
     AbstractClass.test()
     Composition.test()
     Builder.test()
+    Bridge.test()
   }
 }
 
@@ -65,6 +66,17 @@ extension Demo {
         .build()
       
       print("build success")
+    }
+  }
+}
+
+extension Demo {
+  class Bridge {
+    static func test() {
+      let circle = Circle(drawable: DrawableLogger(),
+                          center: .zero,
+                          radius: 5)
+      circle.draw()
     }
   }
 }
