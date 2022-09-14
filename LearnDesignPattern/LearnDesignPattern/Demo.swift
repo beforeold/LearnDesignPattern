@@ -108,3 +108,12 @@ extension Demo {
     }
   }
 }
+
+extension Demo {
+  class Facade {
+    static func test() {
+      let ins = DesignPattern.Facade.API()
+      ins.foo()
+    }
+  }
+}
