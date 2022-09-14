@@ -16,6 +16,7 @@ class Demo {
     Bridge.test()
     Decorator.test()
     Adapter.test()
+    Composite.test()
   }
 }
 
@@ -114,6 +115,14 @@ extension Demo {
     static func test() {
       let ins = DesignPattern.Facade.API()
       ins.foo()
+    }
+  }
+}
+
+extension Demo {
+  class Composite {
+    static func test() {
+      DesignPattern.Composite.test()
     }
   }
 }
